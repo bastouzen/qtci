@@ -179,9 +179,9 @@ Controller.prototype.CredentialsPageCallback = function() {
 	
     var widget = gui.currentPageWidget();
 
-	widget.loginWidget.EmailLineEdit.setText(login);
+	widget.EmailLineEdit.setText(login);
 
-	widget.loginWidget.PasswordLineEdit.setText(password);
+	widget.PasswordLineEdit.setText(password);
 
     gui.clickButton(buttons.CommitButton);
 }
